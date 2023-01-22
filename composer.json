@@ -1,0 +1,23 @@
+{
+    "name": "eraasoft-311/project",
+    "description": "mvc project",
+    "type": "project",
+    "require": {
+        "eraasoft-311/mvc": "^2.0",
+        "jenssegers/blade": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eraasoft311\\Project\\": "src/"
+        },"files": [
+            "src/Route/web.php",
+            "src/Core/helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Eslam",
+            "email": ""
+        }
+    ]
+}
